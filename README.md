@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎨 AdSnap Studio
 
 A powerful Streamlit app for generating professional product ads using Bria AI's advanced image generation and manipulation APIs.
@@ -74,3 +75,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Bria AI](https://bria.ai) for their powerful image generation APIs
 - [Streamlit](https://streamlit.io) for the amazing web framework "# Nexus-Render" 
+=======
+# Nexus_Render_Project
+An Ai image Generator studio
+>>>>>>> b4e473feb2138677a584bf51b1df3e5fbba0c9bd
