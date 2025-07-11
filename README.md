@@ -1,81 +1,78 @@
-<<<<<<< HEAD
-# 🎨 AdSnap Studio
+# NEXUS Render - AI-Powered Image Generation Studio
 
-A powerful Streamlit app for generating professional product ads using Bria AI's advanced image generation and manipulation APIs.
 
-## 🌟 Features
+## 🚀 Overview
+NEXUS Render is an advanced AI-powered creative suite that transforms text prompts and product images into stunning visual content. Designed for marketers, designers, and content creators, it offers:
 
-- 🖼️ Generate HD product images from text prompts
-- 🎯 Remove backgrounds with custom colors
-- 🌅 Add realistic shadows
-- 🏠 Create lifestyle shots with text or reference images
-- ✨ AI-powered prompt enhancement
-- 📝 Optional CTA text overlay
-- 🎮 Intuitive UI controls
-- 💾 Easy image download
+- AI image generation from text prompts
+- Professional product photography enhancement
+- Generative fill for image editing
+- Smart object removal capabilities
 
-## 🚀 Quick Start
+## ✨ Key Features
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/adsnap-studio.git
-cd adsnap-studio
-```
+| Feature | Description |
+|---------|-------------|
+| 🎨 **AI Image Generation** | Create high-quality images from text descriptions with multiple style options |
+| 🖼️ **Product Photography** | Automatically generate packshots, add shadows, and create lifestyle shots |
+| 🖌️ **Generative Fill** | Intelligently edit images by filling masked areas with AI-generated content |
+| 🧹 **Object Removal** | Cleanly remove unwanted elements from images |
 
-2. Install dependencies:
-```bash
+## 🛠️ Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Pravin180creator/Nexus_Render_Project.git
+   cd Nexus_Render_Project
+Install dependencies:
+
+bash
 pip install -r requirements.txt
-```
+Set up environment variables:
 
-3. Create a `.env` file in the root directory:
-```bash
+Create a .env file
+
+Add your API keys:
+
+text
 BRIA_API_KEY=your_api_key_here
-```
-
-4. Run the app:
-```bash
+🏃‍♂️ Quick Start
+python
 streamlit run app.py
-```
+🌟 Usage Examples
+Generate AI Art
+python
+# Example: Generate a fantasy landscape
+prompt = "A mystical forest with glowing mushrooms at twilight, digital art style"
+generate_hd_image(prompt=prompt, style="Fantasy")
+Enhance Product Images
+python
+# Example: Create professional packshot
+create_packshot(product_image="product.jpg", background_color="#FFFFFF")
+📂 Project Structure
+text
+NEXUS-Render/
+├── app.py                # Main application
+├── services/             # AI service integrations
+├── assets/               # Sample images/resources
+├── requirements.txt      # Python dependencies
+└── README.md            # This file
+🤝 Contributing
+We welcome contributions! Please follow these steps:
 
-## 💡 Usage
+Fork the repository
 
-1. Enter a product description or upload an image
-2. Configure generation options in the sidebar:
-   - Enhance prompt with AI
-   - Remove background
-   - Add shadows
-   - Generate lifestyle shots
-3. Adjust advanced settings like background color and shadow intensity
-4. Click "Generate Ad" to create your images
-5. Download the results
+Create your feature branch (git checkout -b feature/AmazingFeature)
 
-## 🔧 Configuration
+Commit your changes (git commit -m 'Add some amazing feature')
 
-The app supports various configuration options through the UI:
+Push to the branch (git push origin feature/AmazingFeature)
 
-- **Prompt Enhancement**: Improve your text prompts with AI
-- **Background Removal**: Remove backgrounds with custom colors
-- **Shadow Effects**: Add realistic shadows with adjustable intensity
-- **Lifestyle Shots**: Place products in context using text or reference images
-- **CTA Text**: Add optional call-to-action text overlays
+Open a Pull Request
 
-## 🤝 Contributing
+📜 License
+Distributed under the MIT License. See LICENSE for more information.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Bria AI](https://bria.ai) for their powerful image generation APIs
-- [Streamlit](https://streamlit.io) for the amazing web framework "# Nexus-Render" 
-=======
-# Nexus_Render_Project
-An Ai image Generator studio
->>>>>>> b4e473feb2138677a584bf51b1df3e5fbba0c9bd
+📧 Contact
+Pravin Creator - praveenp4998@gmail.com
+Project Link: https://github.com/Pravin180creator/Nexus_Render_Project
